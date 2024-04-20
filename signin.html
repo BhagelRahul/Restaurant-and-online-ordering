@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singin page</title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="return data()" action="logedin.html">
+
+        <div class="userpic"><img src="img/feedback-2.jpg" alt="lazy"></div>
+
+        
+     <label for="">User Name</label><br>
+      <input type="text" id="UserName" placeholder="Enter User Name" required>
+       <span id="nameError"></span>
+      <br>
+       
+     <label for="">User Email </label><br>
+      <input type="text" id="Email" placeholder="xyz12@gmail.com" required ><br>
+
+     <label for="">Password</label><br>
+      <input type="password" id="password" placeholder="At Least 8 character" required min="8" max="20">
+     
+      <label for=""> Confirm Password</label><br>
+      <input type="password" id="confirm" placeholder="Same as above Password" required>
+
+      <input type="submit" id="btn" value="Login..">
+    </form>
+     
+     <input type="checkbox" id="checkbox" required/> Remember me
+   
+     <hr>
+        <div class="footer">
+       <button id="cancel">Cancel</button>
+           <u>forget password ?</u>
+        </div>
+  
+</div>
+    <script src="js/sign.js">
+
+
+
+
+
+    </script>
+</body>
+</html>
