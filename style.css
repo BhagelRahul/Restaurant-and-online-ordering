@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: rgb(168, 5, 5);
+}
+body{
+    background-image: url('img/bg-4.jpg');
+}
+.hero{
+    margin-top:100px;
+}
+.nav-link:hover{
+    color: brown;
+    
+}
+.nav-link{
+    color: blue;
+}
+.image img{
+      border-radius:50px;
+}
+.text-color{
+    color: red;
+    margin-top:50px;
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+}
+.text-color-2{
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+
+input{
+   
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    width:400px;
+    height:40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.card{
+    transition: all 0.2s;
+}
+.card:hover{
+        transform: scale(1.10);
+
+}
+.customer{
+    color: brown;
+}
+.review{
+    color: red;
+    margin-top:40px;
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+}
+.says{
+    color: black;
+    font-size:25px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+}
+.carousel-item img{
+    border: 2px solid red;
+    border-radius:80px;
+}
+.contact{
+    color: red;
+    margin-top:50px;
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+}
+.card-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.footer{
+    background:#150b42;
+    margin-top:20px;
+}
+b{
+    color: black;
+
+}
+
+

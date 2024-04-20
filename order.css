@@ -1,0 +1,102 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #2f4069;
+}
+.card{
+        transition: all 0.2s;
+}
+.card:hover{
+    transform: scale(1.10);
+
+}
+button{
+    background:rgb(35, 42, 222);
+    color:white;
+    border: none;
+    border-radius:4px;
+    width:60px;
+    font-weight: 200;
+}
+button:hover{
+    color:grey;
+}
+ 
+.btns{
+    background:rgb(136, 45, 12);
+    color:white;
+    border: none;
+    border-radius:4px;
+    width:60px;
+    font-weight: 200;
+}
+.btns:hover{
+    color:gray;
+}
+
+.click{
+    background:rgb(7, 75, 0);
+    color:white;
+    border: none;
+    border-radius:4px;
+    width:60px;
+    font-weight: 200;
+}
+.click:hover{
+    color:rgb(185, 22, 22);
+}
+pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+}
+.footer{
+    margin-top: 30px;
+}
+h4{
+    margin-left:12px;
+}
+h3{
+    margin-left: 25px;
+    font-family: cursive;
+    background:#2f4069;
+    color: aliceblue;
+}
+.End{
+    background-color:#3f3f3f;
+   
+}
+.End{
+    color: #ffff;
+}
+.collections{
+    font-family: cursive;
+}
+.navbar-brand{
+    font-family: cursive;
+}
+.our_text{
+    font-family: cursive;
+}
+.Souths{
+    font-family: cursive;
+}
+.you-Text{
+    font-family: cursive;
+}
+.Brand{
+    font-family: cursive;
+}
+.offcanvas-body{
+    background: #afbfd4;
+}
+.offcanvas-header{
+    background: #4863A0;
+}
